@@ -1,0 +1,46 @@
+:root {
+    --cor-azul: #3772FF;
+    --cor-verde: #36D6AD;
+    --cor-branco: #FCF0E3;
+    --cor-coral: #FC7071;
+    --cor-cinza: #737380;
+    --cor-cinza-claro: #BCBCBC;
+    --cor-cinza-claro-fundos: #F7F7F7;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-azul);
+    background-image: url(/./assets/img/Forma\ 1.svg), url(/assets/img/Forma\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: top left, center right;
+    min-height: 100vh;
+}
+
+ /* INICIO DO CSS CABEÇALHO */
+.cabecalho{
+    position: fixed;
+    align-items: center;
+    
+}
+
+.container_imagem {
+    padding-top: 48px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.conteudo__principal {
+    align-items: center;
+    position: absolute;
+}
+ /* FIM DO CSS CABEÇALHO */
+
+
+
