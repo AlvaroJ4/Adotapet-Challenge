@@ -7,6 +7,9 @@
     --cor-cinza-claro: #BCBCBC;
     --cor-cinza-claro-fundos: #F7F7F7;
 
+    --fonte-principal: 'IBM Plex Sans', sans-serif;
+    --fonte-secundaria: 'Poppins', sans-serif;
+
 }
 
 * {
@@ -15,32 +18,96 @@
     box-sizing: border-box;
 }
 
+
 body {
-    background-color: var(--cor-azul);
-    background-image: url(/./assets/img/Forma\ 1.svg), url(/assets/img/Forma\ 2.svg);
+    background-image: url(/./assets/img/Forma\ 1.svg), 
+                      url(/assets/img/Forma\ 2.svg), 
+                      url(/assets/img/Ilustração\ 1.svg);
+
     background-repeat: no-repeat;
-    background-position: top left, center right;
+    background-position: top left, center right, bottom 86px center;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
 }
 
- /* INICIO DO CSS CABEÇALHO */
-.cabecalho{
-    position: fixed;
-    align-items: center;
+.fundo__azul {
+    background-color: var(--cor-azul);
     
 }
 
-.container_imagem {
-    padding-top: 48px;
-    padding-left: 50px;
-    padding-right: 10px;
+
+ /* INICIO DO CSS CABEÇALHO */
+.cabecalho{
+    padding: 3em; 
 }
 
-.conteudo__principal {
-    align-items: center;
-    position: absolute;
+.container_imagem {
+    padding-right: 2.5em;
 }
  /* FIM DO CSS CABEÇALHO */
 
 
+.conteudo__principal {   
+    text-align: center;
+    width: 70%;
+    padding-top: 1.5em;
+    margin: 0 auto;
+    flex: 1;  
+}
+
+.conteudo__titulo {
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 48px;
+    color: var(--cor-branco);
+}
+
+.conteudo__paragrafo {
+    font-family: var(--fonte-secundaria);
+    margin: 1em 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 1em;
+    color: var(--cor-branco);
+    
+}
+
+.conteudo__ancora {
+    display: block;
+    background-color: var(--cor-coral);
+    color: var(--cor-branco);
+    font-family: var(--fonte-secundaria);
+
+    padding: 0.5em;
+    margin: 0 auto 1em ;
+    width: 12em;
+    font-size: 16px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+
+/* INICIO CSS FOOTER */
+.footer {
+    padding: 3em;
+    background: var(--cor-verde);
+    color: var(--cor-branco); 
+    text-align: center;
+}
+
+.paragrafo__footer{
+    font-family: var(--fonte-secundaria);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* FIM CSS FOOTER */
 
