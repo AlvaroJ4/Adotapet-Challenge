@@ -1,0 +1,49 @@
+
+:root {
+    --cor-azul: #3772FF;
+    --cor-verde: #36D6AD;
+    --cor-branco: #FCF0E3;
+    --cor-coral: #FC7071;
+    --cor-cinza: #737380;
+    --cor-cinza-claro: #BCBCBC;
+    --cor-cinza-claro-fundos: #F7F7F7;
+
+    --fonte-principal: 'IBM Plex Sans', sans-serif;
+    --fonte-secundaria: 'Poppins', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* INICIO DO CSS CABEÇALHO */
+.cabecalho{
+    padding: 3em; 
+}
+
+.container_imagem {
+    padding-right: 2.5em;
+}
+ /* FIM DO CSS CABEÇALHO */
+
+ 
+ /* INICIO CSS FOOTER */
+.footer {
+    padding: 3em;
+    background: var(--cor-verde);
+    color: var(--cor-branco); 
+    text-align: center;
+}
+
+.paragrafo__footer{
+    font-family: var(--fonte-secundaria);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* FIM CSS FOOTER */
