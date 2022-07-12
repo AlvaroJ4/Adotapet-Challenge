@@ -1,27 +1,27 @@
 @import url(base.css);
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 body {
-    background-image: url(/assets/img/Patas.png),url(/./assets/img/Forma\ 1.svg), 
-                      url(/assets/img/Forma3-invertida.svg) ;
+    background-image: url(/assets/img/Patas.png),url(/./assets/img/Forma\ 1.svg), url(/assets/img/Forma3-invertida.svg) ;
 
     background-repeat: no-repeat;
-    background-position: top right , top  left , center left  ;
+    background-position: top right , top  left, left  bottom 156px ;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-
 .cor__fundo {
     background-color: var(--cor-branco);
-    
+}
+
+
+/* INICIO CSS MAIN */
+.conteudo__principal {   
+    text-align: center;
+    width: 70%;
+    padding-top: 1.5em;
+    margin: 0 auto ;
+    flex: 1;  
 }
 
 .paragrafo__pergunta {
@@ -41,6 +41,31 @@ body {
     color: var(--cor-azul);
 }
 
+
+/* CSS FORMULARIO */
+.formulario {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1em;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-cinza);
+}
+
+.inputs {
+    text-align: center;
+    width: 312px;
+    margin:  0 0 25px;
+    padding: 10px 25px;
+    font-family: var(--fonte-secundaria);
+    color: var( --cor-cinza-claro);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 6px;
+}
+/* CSS FORMULARIO */
 
 
 

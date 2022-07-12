@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/base.css">
     <link rel="stylesheet" href="../../../css/cadastro.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +12,7 @@
     <title>AdoPet - Cadastro</title>
 </head>
 <body class="cor__fundo">
+
     <header class="cabecalho">
         <a  href="../../../../index.html"><img src="../../../img/Casa.svg" alt="Home" class="container_imagem"></a>
         <a  href="#"><img src="../../../img/Mensagens.svg" alt="Mensagens" class="container_imagem"></a>
@@ -23,15 +24,23 @@
         <p class="paragrafo__pergunta">Ainda não tem cadastro?</p>
         <p class="paragrafo__cadastro">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
 
-        <section>
-                <div class="input-container">
+        <section class="formulario">
+            <form>
                     <label for="">Email</label>
-                    <input type="email" >
-                </div>
-         
+                    <input type="email"  class="inputs" placeholder="Escolha seu melhor email">
+                
+                    <label for="">Nome</label>
+                    <input type="text" class="inputs" placeholder="">
+
+                    <label for="">Senha</label>
+                    <input type="password" class="inputs" placeholder="">
+
+                    <label for="">Confirma sua senha</label>
+                    <input type="password" class="inputs" placeholder="">
+            </form>
         </section>
 
-        
+        <a href="#" class="botao-cadastro" >Cadastrar</a>
 
     </main>
 
