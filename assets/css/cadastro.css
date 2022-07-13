@@ -4,14 +4,14 @@ body {
     background-image: url(/assets/img/Patas.png),url(/./assets/img/Forma\ 1.svg), url(/assets/img/Forma3-invertida.svg) ;
 
     background-repeat: no-repeat;
-    background-position: top right , top  left, left  bottom 156px ;
+    background-position: top  right  , top  left , left  bottom 156px ;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 .cor__fundo {
-    background-color: var(--cor-branco);
+    background-color: var(--cor-cinza-claro-fundos);
 }
 
 
@@ -54,18 +54,34 @@ body {
 
 .inputs {
     text-align: center;
-    width: 312px;
+    width: 22rem;
     margin:  0 0 25px;
-    padding: 10px 25px;
+    padding: 12px 25px;
     font-family: var(--fonte-secundaria);
     color: var( --cor-cinza-claro);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 12px;
     line-height: 16px;
     border-radius: 6px;
+    border: none;
 }
+
+
 /* CSS FORMULARIO */
+
+.botao-cadastro {
+    display: block;
+    background-color: var(--cor-coral);
+    color: var(--cor-branco);
+    font-family: var(--fonte-secundaria);
+    padding: 0.5em;
+    margin: 0 auto 1em ;
+    width: 10em;
+    font-size: 16px;
+    border-radius: 6px;
+    text-decoration: none;
+}
 
 
 
