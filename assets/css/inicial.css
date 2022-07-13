@@ -1,0 +1,27 @@
+@import url(cadastro.css);
+@import url(base.css);
+
+body {
+    background-image: url(/./assets/img/Forma\ 1.svg) ;
+
+    background-repeat: no-repeat;
+    background-position: top left ;
+    background-size:  400.25px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    padding: 2.5em; 
+}
+
+.container_imagem {
+    padding-right: 3em;
+    
+}
+
+.container_usuario {
+    padding-left: 42%;
+}
+
