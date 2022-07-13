@@ -1,0 +1,57 @@
+@import url(base.css);
+@import url(cadastro.css);
+
+.paragrafo__login {
+    padding-top: 3em;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--cor-azul);
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2em;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-cinza);
+}
+
+.inputs {
+    text-align: center;
+    width: 22rem;
+    margin:  0 0 25px;
+    padding: 10px 25px;
+    font-family: var(--fonte-secundaria);
+    color: var( --cor-cinza-claro);
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 6px;
+    border: none;
+}
+
+.ancora__recuperacao {
+    color: var(--cor-coral);
+    font-family: var(--fonte-secundaria);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.botao__login{
+    display: block;
+    background-color: var(--cor-coral);
+    color: var(--cor-branco);
+    font-family: var(--fonte-secundaria);
+    padding: 0.5em;
+    margin: 0 auto 1em ;
+    width: 10em;
+    font-size: 16px;
+    border-radius: 6px;
+    text-decoration: none;
+}
