@@ -6,7 +6,7 @@
     --cor-coral: #FC7071;
     --cor-cinza: #737380;
     --cor-cinza-claro: #BCBCBC;
-    --cor-cinza-claro-fundos: #F7F7F7;
+    --cor-cinza-claro-fundos: #f7f7f7d0;
 
     --fonte-principal: 'IBM Plex Sans', sans-serif;
     --fonte-secundaria: 'Poppins', sans-serif;
@@ -21,8 +21,14 @@
 
 
 /* INICIO DO CSS CABEÇALHO */
+
+.logoadopet-header {
+    display: none;
+}
+
 .cabecalho{
-    padding: 3em; 
+    padding-top: 3em; 
+    padding-left: 3em;
 }
 
 .container_imagem {
