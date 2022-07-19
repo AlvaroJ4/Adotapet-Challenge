@@ -2,26 +2,122 @@
 @import url(base.css);
 
 body {
-    background-image: url(/./assets/img/Forma\ 1.svg) ;
+    background-image: url(/assets/img/Forma\ 1.svg) ;
 
     background-repeat: no-repeat;
     background-position: top left ;
-    background-size:  400.25px;
+    background-size:  333.25px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
+.cor__fundo{
+    background-color: var(--cor-cinza-claro-fundos);
+}
+
+/*  CSS CABECALHO */
 .cabecalho{
-    padding: 2.5em; 
+    padding-top: 1.5em; 
 }
 
 .container_imagem {
     padding-right: 3em;
-    
+    padding-top: 0.5em; 
 }
 
 .container_usuario {
-    padding-left: 42%;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 25%;
+    width: 40px;
+    height: 40px;
 }
+/*  FIM CSS CABECALHO */
+
+
+
+.conteudo__principal {   
+    text-align: center;
+    width: 85%;
+    padding-top: 4em;
+    margin: 0 auto;
+    flex: 1;  
+}
+
+
+
+ /* inicio CSS CARDS */
+.card__pets .container {
+    display: flex;
+    width: 360px;
+    background-color: var(--cor-cinza-claro-fundos);
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+.img-pets {
+    width: 148px;
+    height: 148px;   
+}
+
+.pets-title {
+    display: flex;
+    margin-left: 15px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-azul);
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 1em;
+}
+
+.card__pets-info {
+    display:flex;
+    flex-direction: column;
+}
+
+.pets-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-left: 15px;
+    align-items: flex-start;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-cinza);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.paragrafo-inicial {
+    padding-top: 2em;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-cinza);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.mensagens-cards {
+    padding-top: 0.5em;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+}
+
+.texto-mensagem {
+    padding-left: 6px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-cinza);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+ /* fim CSS CARDS */
+
+ @media screen and (min-width: 768px) {
+    
+ }
 
