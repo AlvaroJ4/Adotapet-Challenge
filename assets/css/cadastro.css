@@ -1,9 +1,13 @@
 @import url(base.css);
 
+
 body {
-    background-image: url(/assets/img/Patas.png),url(/./assets/img/Forma\ 1.svg), url(/assets/img/Forma3-invertida.svg) ;
+    background-image: url(/assets/img/Patas.png),
+    url(/assets/img/Forma\ 1.svg),
+    url(/assets/img/Forma3-invertida.svg) ;
 
     background-repeat: no-repeat;
+    background-size: 123px,352.11px, 82.73px;
     background-position: top  right  , top  left , left  bottom 156px ;
     min-height: 100vh;
     display: flex;
@@ -18,14 +22,14 @@ body {
 /* INICIO CSS MAIN */
 .conteudo__principal {   
     text-align: center;
-    width: 70%;
-    padding-top: 1.5em;
-    margin: 0 auto ;
+    width: 90%;
+    padding-top: 4.5em;
+    margin: 0 5% ;
     flex: 1;  
 }
 
 .paragrafo__pergunta {
-    padding-bottom: 1em;
+    padding: 0.5em;
     font-family: var(--fonte-secundaria);
     font-weight: 400;
     font-size: 16px;
@@ -33,7 +37,7 @@ body {
     color: var(--cor-azul);
 }
 
-.paragrafo__cadastro{
+.paragrafo__principal{
     font-family: var(--fonte-secundaria);
     font-weight: 400;
     font-size: 16px;
@@ -47,17 +51,18 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 1em;
+    padding: 0.5em;
     font-family: var(--fonte-secundaria);
     color: var(--cor-cinza);
 }
 
 .inputs {
     text-align: center;
-    width: 22rem;
+    width: 20rem;
     margin:  0 0 25px;
     padding: 12px 25px;
     font-family: var(--fonte-secundaria);
+    background-color: var(--cor-cinza-claro-fundos);
     color: var( --cor-cinza-claro);
     font-style: normal;
     font-weight: 200;
@@ -85,4 +90,64 @@ body {
 
 
 
+@media screen and (min-width: 768px) {
+    
+    body {
+        background-image: url(/assets/img/Patas.png),
+                          url(/assets/img/Forma\ 1.svg),
+                          url(/assets/img/Forma\ 2.svg) ;
+        background-size: 222px, 540px,  104px; 
+        background-repeat: no-repeat;
+        background-position: top  right  , top  left , center right ;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
 
+    .cabecalho {
+        margin-top: 1.5em;
+    }
+
+    .container_imagem {
+        padding-left: 3em;
+        margin-right: -30px;
+        margin-bottom: 6px;
+     }
+ 
+     .logoadopet-header {
+         display: inline-block;
+         width: 128px;
+         height: 30.86px;
+     }
+ 
+
+    .conteudo__principal {   
+        width: 60%;
+        padding-top: 9em;
+        margin: 0 auto ;
+    
+    }
+
+    .logoadopet {
+        width: 251.59px;
+    }
+
+    .paragrafo__pergunta {
+        padding-top: 2em;
+        margin-bottom: -5px;
+    }
+
+    .formulario {
+        padding: 2em;
+    }
+    
+    .inputs {
+        width: 35rem; 
+    }
+    
+    .botao-cadastro {
+        width: 12em; 
+    }
+    
+}
