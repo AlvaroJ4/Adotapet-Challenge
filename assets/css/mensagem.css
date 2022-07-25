@@ -1,0 +1,138 @@
+@import url(inicial.css);
+
+
+.conteudo__principal {
+    padding-top: 3em;
+}
+
+.paragrafo__principal {
+    margin: 5px 50px;
+    padding-top: 1em;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    color: var( --cor-azul);
+    font-style: normal;
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    background: var(--cor-cinza-claro-fundos);
+    height: 686px;
+    border-radius: 10px;
+}
+
+
+.campos {
+    margin-top: -1em;
+}
+
+
+.inputs {
+    background-color: var(--cor-cinza-claro-fundos);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    width: 280px;
+    height: 48px;
+    border: none;
+}
+
+.campos-title {
+    display: flex;
+    padding-left: 1.5em;
+    padding-bottom: 5px;
+    align-items: flex-start;
+}
+
+.inputs::placeholder {
+    text-align: start;
+    color: var( --cor-cinza-claro);
+    font-family: var(--fonte-secundaria);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.caixa-texto {
+    width: 280px;
+    height: 172px;
+    background-color: var(--cor-cinza-claro-fundos);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    mix-blend-mode: normal;
+    border: none; 
+    padding-bottom: 4em;
+}
+
+.caixa-texto::placeholder {
+    padding-left: 20px;
+    color: var( --cor-cinza-claro);
+    align-items: flex-start;
+    font-family: var(--fonte-secundaria);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.botao-enviar {
+    background-color: var(--cor-coral);
+    color: var(--cor-branco);
+    font-family: var(--fonte-secundaria);
+    padding: 0.5em;
+    width: 148px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px){
+    body {
+        background-image: url(/assets/img/Forma\ 1.svg), url(/assets/img/Forma\ 2.svg) ;
+        background-repeat: no-repeat;
+        background-position: top left, right center ;
+        background-size:  540px, 114px;
+    }
+
+    .conteudo__principal {
+        padding-top: 2em;
+    }
+
+    .paragrafo__principal {
+        margin: 10px 150px;
+        padding-top: 6em;
+    }
+    
+    .formulario {
+        margin: 0 15% ;   
+    }
+
+    .inputs {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        width: 492px;
+        height: 48px;
+    }
+
+    .caixa-texto {
+        width: 492px;
+        height: 172px;
+    }
+
+    .caixa-texto::placeholder{
+        padding-left: 30px;
+    }
+
+    .botao-enviar {
+        align-items: center;
+        width: 164px;
+        height: 40px;
+        margin-top: 2em;
+    }
+}
