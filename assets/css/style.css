@@ -1,5 +1,6 @@
 @import url(base.css);
 
+
 body {
     background-image: url(/assets/img/Forma\ 1.svg), 
                       url(/assets/img/Forma\ 2.svg ), 
@@ -16,6 +17,10 @@ body {
 
 .cor__fundo {
     background-color: var(--cor-azul); 
+}
+
+.logoadopet-header {
+    display: none;
 }
 
 .conteudo__principal {   
@@ -84,9 +89,10 @@ body {
      }
  
      .logoadopet-header {
-         display: inline-block;
-         width: 128px;
-         height: 30.86px;
+            display: inline-block;
+            width: 128px;
+            height: 30.86px;
+        
      }
  
 
@@ -112,14 +118,9 @@ body {
     }
     
     .conteudo__paragrafo {
-        font-family: var(--fonte-secundaria);
         margin: 1em 2px;
-        font-style: normal;
-        font-weight: 400;
         font-size: 18px;
         line-height: 30px;
-        padding: 1em;
-        color: var(--cor-branco);
     }
 
     .conteudo__ancora {
