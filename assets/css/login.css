@@ -55,3 +55,47 @@
     border-radius: 6px;
     text-decoration: none;
 }
+
+@media screen and (min-width: 768px) {
+    body {
+        background-size: 222px, 540px,  104px; 
+    }
+
+    .cabecalho {
+        margin-top: 1.5em;
+    }
+
+    .container_imagem {
+        padding-left: 3em;
+        margin-right: -30px;
+        margin-bottom: 6px;
+     }
+ 
+     .logoadopet-header {
+         display: inline-block;
+         width: 128px;
+         height: 30.86px;
+     }
+ 
+    .conteudo__principal {   
+        width: 70%;
+        padding-top: 9em;
+        margin: 0 auto ; 
+    }
+
+    .logoadopet {
+        width: 251.59px;
+    }
+
+    .formulario {
+        padding: 2em;
+    }
+    
+    .inputs {
+        width: 35rem; 
+    }
+
+    .botao__login{
+        width: 12em;
+    }
+}
